@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+button {
+    width: 40px;
+    padding: 5px;
+    margin-bottom: 4px;
+}
+
+
+.main {
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
+
+#display {
+    color: azure;
+    background-color: rgb(81, 81, 81);
+    margin-bottom: 10px;
+}
+
+.number-buttons{
+    display: grid;
+    grid-template-columns: 45px 45px 40px;
+}
